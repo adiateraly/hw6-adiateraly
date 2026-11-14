@@ -1,0 +1,37 @@
+== 1. Wall / boundary behaviour (paper map) ==
+(1,1) up   -> [(1.0, (1, 1), -1)]
+PASS  outside the map: stay at (1,1), reward of end tile '.' = -1
+(2,1) right-> [(1.0, (2, 1), -1)]
+PASS  wall at (2,2): stay at (2,1), reward -1
+
+== 2. Ice probabilities ==
+paper: probabilities sum to 1 for every nonterminal (state, action)
+extended: probabilities sum to 1 for every nonterminal (state, action)
+(2,3) ice, up -> [(0.8, (1, 3), -1), (0.1, (2, 3), -1), (0.1, (2, 4), -10)]
+PASS  ice: 0.8 intended, 0.1 + 0.1 perpendicular
+PASS  intended 'up' -> (1,3), reward -1
+PASS  slip left hits wall (2,2): stay on ice, reward -1
+PASS  slip right -> hole (2,4), reward -10
+PASS  ordinary floor is deterministic
+PASS  sand (3,2) is deterministic
+PASS  water (3,4) is deterministic to enter
+
+== 3. Floor rewards (reward of the tile where the move ends) ==
+PASS  entering mud M = -3
+PASS  entering sand D = -2
+PASS  entering water W = -5
+PASS  entering goal G = +10 (no extra floor cost)
+PASS  entering hole H = -10
+PASS  moving from water W north into hole H = -10, deterministic
+
+== 4. Terminal handling ==
+PASS  paper: no transitions (hence no rewards) out of G or H
+PASS  paper: V(G) = V(H) = 0 after convergence
+PASS  paper: episode stops at the first terminal state (outcome=hole, steps=4)
+PASS  paper: discounted return counts rewards only up to termination
+PASS  paper: no terminal state appears before the last trace position
+PASS  extended: no transitions (hence no rewards) out of G or H
+PASS  extended: V(G) = V(H) = 0 after convergence
+PASS  extended: episode stops at the first terminal state (outcome=goal, steps=5)
+PASS  extended: discounted return counts rewards only up to termination
+PASS  extended: no terminal state appears before the last trace position

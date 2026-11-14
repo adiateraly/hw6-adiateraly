@@ -1,0 +1,520 @@
+======================================================================
+slippery=False,policy=random | first observed outcome: goal
+episode seed 22006
+
+start (episode seed 22006)
+
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 1: action Up -> state 0, reward 0
+  (Up)
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 2: action Left -> state 0, reward 0
+  (Left)
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 3: action Left -> state 0, reward 0
+  (Left)
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 4: action Up -> state 0, reward 0
+  (Up)
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 5: action Left -> state 0, reward 0
+  (Left)
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 6: action Down -> state 4, reward 0
+  (Down)
+SFFF
+[41mF[0mHFH
+FFFH
+HFFG
+
+
+step 7: action Left -> state 4, reward 0
+  (Left)
+SFFF
+[41mF[0mHFH
+FFFH
+HFFG
+
+
+step 8: action Up -> state 0, reward 0
+  (Up)
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 9: action Left -> state 0, reward 0
+  (Left)
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 10: action Up -> state 0, reward 0
+  (Up)
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 11: action Right -> state 1, reward 0
+  (Right)
+S[41mF[0mFF
+FHFH
+FFFH
+HFFG
+
+
+step 12: action Right -> state 2, reward 0
+  (Right)
+SF[41mF[0mF
+FHFH
+FFFH
+HFFG
+
+
+step 13: action Down -> state 6, reward 0
+  (Down)
+SFFF
+FH[41mF[0mH
+FFFH
+HFFG
+
+
+step 14: action Down -> state 10, reward 0
+  (Down)
+SFFF
+FHFH
+FF[41mF[0mH
+HFFG
+
+
+step 15: action Down -> state 14, reward 0
+  (Down)
+SFFF
+FHFH
+FFFH
+HF[41mF[0mG
+
+
+step 16: action Down -> state 14, reward 0
+  (Down)
+SFFF
+FHFH
+FFFH
+HF[41mF[0mG
+
+
+step 17: action Right -> state 15, reward 1
+  (Right)
+SFFF
+FHFH
+FFFH
+HFF[41mG[0m
+
+
+======================================================================
+slippery=False,policy=random | first observed outcome: hole
+episode seed 11000
+
+start (episode seed 11000)
+
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 1: action Left -> state 0, reward 0
+  (Left)
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 2: action Up -> state 0, reward 0
+  (Up)
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 3: action Right -> state 1, reward 0
+  (Right)
+S[41mF[0mFF
+FHFH
+FFFH
+HFFG
+
+
+step 4: action Left -> state 0, reward 0
+  (Left)
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 5: action Right -> state 1, reward 0
+  (Right)
+S[41mF[0mFF
+FHFH
+FFFH
+HFFG
+
+
+step 6: action Down -> state 5, reward 0
+  (Down)
+SFFF
+F[41mH[0mFH
+FFFH
+HFFG
+
+
+======================================================================
+slippery=False,policy=random | first observed outcome: time_limit
+never occurred in these 150 episodes
+
+======================================================================
+slippery=False,policy=fixed | first observed outcome: goal
+episode seed 11000
+
+start (episode seed 11000)
+
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 1: action Down -> state 4, reward 0
+  (Down)
+SFFF
+[41mF[0mHFH
+FFFH
+HFFG
+
+
+step 2: action Down -> state 8, reward 0
+  (Down)
+SFFF
+FHFH
+[41mF[0mFFH
+HFFG
+
+
+step 3: action Right -> state 9, reward 0
+  (Right)
+SFFF
+FHFH
+F[41mF[0mFH
+HFFG
+
+
+step 4: action Down -> state 13, reward 0
+  (Down)
+SFFF
+FHFH
+FFFH
+H[41mF[0mFG
+
+
+step 5: action Right -> state 14, reward 0
+  (Right)
+SFFF
+FHFH
+FFFH
+HF[41mF[0mG
+
+
+step 6: action Right -> state 15, reward 1
+  (Right)
+SFFF
+FHFH
+FFFH
+HFF[41mG[0m
+
+
+======================================================================
+slippery=False,policy=fixed | first observed outcome: hole
+never occurred in these 150 episodes
+
+======================================================================
+slippery=False,policy=fixed | first observed outcome: time_limit
+never occurred in these 150 episodes
+
+======================================================================
+slippery=True,policy=random | first observed outcome: goal
+never occurred in these 150 episodes
+
+======================================================================
+slippery=True,policy=random | first observed outcome: hole
+episode seed 11000
+
+start (episode seed 11000)
+
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 1: action Left -> state 4, reward 0
+  (Left)
+SFFF
+[41mF[0mHFH
+FFFH
+HFFG
+
+
+step 2: action Up -> state 5, reward 0
+  (Up)
+SFFF
+F[41mH[0mFH
+FFFH
+HFFG
+
+
+======================================================================
+slippery=True,policy=random | first observed outcome: time_limit
+never occurred in these 150 episodes
+
+======================================================================
+slippery=True,policy=fixed | first observed outcome: goal
+episode seed 11020
+
+start (episode seed 11020)
+
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 1: action Down -> state 4, reward 0
+  (Down)
+SFFF
+[41mF[0mHFH
+FFFH
+HFFG
+
+
+step 2: action Down -> state 4, reward 0
+  (Down)
+SFFF
+[41mF[0mHFH
+FFFH
+HFFG
+
+
+step 3: action Down -> state 8, reward 0
+  (Down)
+SFFF
+FHFH
+[41mF[0mFFH
+HFFG
+
+
+step 4: action Right -> state 9, reward 0
+  (Right)
+SFFF
+FHFH
+F[41mF[0mFH
+HFFG
+
+
+step 5: action Down -> state 13, reward 0
+  (Down)
+SFFF
+FHFH
+FFFH
+H[41mF[0mFG
+
+
+step 6: action Right -> state 13, reward 0
+  (Right)
+SFFF
+FHFH
+FFFH
+H[41mF[0mFG
+
+
+step 7: action Right -> state 9, reward 0
+  (Right)
+SFFF
+FHFH
+F[41mF[0mFH
+HFFG
+
+
+step 8: action Down -> state 10, reward 0
+  (Down)
+SFFF
+FHFH
+FF[41mF[0mH
+HFFG
+
+
+step 9: action Down -> state 9, reward 0
+  (Down)
+SFFF
+FHFH
+F[41mF[0mFH
+HFFG
+
+
+step 10: action Down -> state 10, reward 0
+  (Down)
+SFFF
+FHFH
+FF[41mF[0mH
+HFFG
+
+
+step 11: action Down -> state 14, reward 0
+  (Down)
+SFFF
+FHFH
+FFFH
+HF[41mF[0mG
+
+
+step 12: action Right -> state 10, reward 0
+  (Right)
+SFFF
+FHFH
+FF[41mF[0mH
+HFFG
+
+
+step 13: action Down -> state 14, reward 0
+  (Down)
+SFFF
+FHFH
+FFFH
+HF[41mF[0mG
+
+
+step 14: action Right -> state 15, reward 1
+  (Right)
+SFFF
+FHFH
+FFFH
+HFF[41mG[0m
+
+
+======================================================================
+slippery=True,policy=fixed | first observed outcome: hole
+episode seed 11000
+
+start (episode seed 11000)
+
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 1: action Down -> state 1, reward 0
+  (Down)
+S[41mF[0mFF
+FHFH
+FFFH
+HFFG
+
+
+step 2: action Left -> state 1, reward 0
+  (Left)
+S[41mF[0mFF
+FHFH
+FFFH
+HFFG
+
+
+step 3: action Left -> state 1, reward 0
+  (Left)
+S[41mF[0mFF
+FHFH
+FFFH
+HFFG
+
+
+step 4: action Left -> state 1, reward 0
+  (Left)
+S[41mF[0mFF
+FHFH
+FFFH
+HFFG
+
+
+step 5: action Left -> state 0, reward 0
+  (Left)
+[41mS[0mFFF
+FHFH
+FFFH
+HFFG
+
+
+step 6: action Down -> state 4, reward 0
+  (Down)
+SFFF
+[41mF[0mHFH
+FFFH
+HFFG
+
+
+step 7: action Down -> state 4, reward 0
+  (Down)
+SFFF
+[41mF[0mHFH
+FFFH
+HFFG
+
+
+step 8: action Down -> state 5, reward 0
+  (Down)
+SFFF
+F[41mH[0mFH
+FFFH
+HFFG
+
+
+======================================================================
+slippery=True,policy=fixed | first observed outcome: time_limit
+never occurred in these 150 episodes
+
